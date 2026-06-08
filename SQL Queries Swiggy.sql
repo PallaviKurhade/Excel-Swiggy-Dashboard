@@ -46,6 +46,7 @@ from swiggy where cuisine<>"Indian"
 order by cost_per_person desc
 limit 5;
 
+
 #Q8
 select distinct restaurant_name,
 cost_per_person
@@ -98,3 +99,32 @@ select distinct restaurant_name,
 from swiggy
 group by restaurant_name
 order by nonvegetarian_percentage desc limit 1;
+
+#Q15
+SELECT * FROM swiggy_data
+WHERE rating>5.5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
